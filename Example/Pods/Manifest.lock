@@ -1,0 +1,16 @@
+PODS:
+  - LLBaseLib (0.1.0)
+
+DEPENDENCIES:
+  - LLBaseLib (from `../`)
+
+EXTERNAL SOURCES:
+  LLBaseLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLBaseLib: 7848fbc9df64e9767c2e57911c671e2d85746358
+
+PODFILE CHECKSUM: a6a1c05d3d324326236dbb82c01dd2e93cdbf961
+
+COCOAPODS: 1.10.0.beta.2

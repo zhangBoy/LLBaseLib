@@ -1,0 +1,6 @@
+framework module LLBaseLib {
+  umbrella header "LLBaseLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
