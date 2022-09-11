@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 A short description of LLBaseLib, 基础类
                        DESC
 
-  s.homepage         = 'https://github.com/zhangBoy/LLBaseLib'
+  s.homepage         = 'https://github.com/zhangBoy/LLBaseLib/tree/master'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangBoy' => '1549217659@qq.com' }
