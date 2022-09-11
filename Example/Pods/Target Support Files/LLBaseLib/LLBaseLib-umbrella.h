@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BaseModel.h"
 
 FOUNDATION_EXPORT double LLBaseLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char LLBaseLibVersionString[];

@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0FA1F429E95217DFB1ADF7DB75342DC0 /* Pods-LLBaseLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E75089183115B8F9FD9974126FFA68 /* Pods-LLBaseLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11054F3E28CE357E00C8E427 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 11054F3C28CE357E00C8E427 /* BaseModel.h */; };
-		11054F3F28CE357E00C8E427 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11054F3D28CE357E00C8E427 /* BaseModel.m */; };
+		129E5EAFAB7E10BD8F11F6CAC3D07F17 /* LLBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4111FBB2C7FA861DA84A4694F6AA06A4 /* LLBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1622229651152744A1A5A8E0557C9A4E /* Pods-LLBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A092968EE33FA84F58B1BB9E4A3A40A /* Pods-LLBaseLib_Example-dummy.m */; };
 		2655DDFF826886D0E7999F9330148BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3EFFF911EB5CF3D71D9A6DC9E79E8390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7AF09A78E9E08F5C53B79F5A31B70C4C /* LLBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CB375F9E63674E032172749E9A3E54 /* LLBaseLib-dummy.m */; };
+		2F668B1057A86DD738B6078043EA906A /* LLBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E35280AF4756134BDB1B913F85C17 /* LLBaseLib-dummy.m */; };
 		854948BA2863BAF078D72AE5B5507D51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8665C12D48565FB38BB0943E59567B5A /* Pods-LLBaseLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA9E32CAF31A75673D6AC0E3FF60B3B /* Pods-LLBaseLib_Tests-dummy.m */; };
 		874650B928CF94FA03C96A0B26B5B10D /* Pods-LLBaseLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD49A4826C66B8842A46B5C55C56A7 /* Pods-LLBaseLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D40D90B22E95B166DC8249E019A867C9 /* LLBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E54029C3C88672A7D809CC7240CB1E7E /* LLBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C973820ACB653E9E64A2DA08FFAA7ACD /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0316A02B2A9B06B9F5B0AC2D46CB2100 /* BaseModel.m */; };
+		D7875F55152922833FB953955033E27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DB5B8A32FA62DD391529240F379EA5E2 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D417755C305F803D34045F46CF08E8D /* BaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BCCCFE5C2B963FFBA441F41C2F1AA6A2 /* PBXContainerItemProxy */ = {
+		642CCFE71458E45B5EE03DB1DA979D5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5BB6405C2BDD2A8B7E3A8B4CAC022A6A;
 			remoteInfo = "Pods-LLBaseLib_Example";
 		};
-		D18D270D71B62A2DF0FFA73E109BA47F /* PBXContainerItemProxy */ = {
+		98BEADC96BF0C6F4D54E5F3C3284F12F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,40 +38,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0340144F4A51A3FA9D3649C087ADB14B /* LLBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLBaseLib.modulemap; sourceTree = "<group>"; };
-		064B04EE22A2549208F70CA46DC39FF7 /* LLBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LLBaseLib-Info.plist"; sourceTree = "<group>"; };
-		11054F3C28CE357E00C8E427 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		11054F3D28CE357E00C8E427 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		1A5DB843BC28D9759EF222E5675FABB1 /* Pods_LLBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLBaseLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0316A02B2A9B06B9F5B0AC2D46CB2100 /* BaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseModel.m; path = LLBaseLib/Classes/BaseModel.m; sourceTree = "<group>"; };
+		09BBCCD6D0C8AE9072EC12EB358FFAA3 /* LLBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLBaseLib.release.xcconfig; sourceTree = "<group>"; };
+		13A34F60ED62757891CBB92D9BA67287 /* LLBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLBaseLib.debug.xcconfig; sourceTree = "<group>"; };
+		1A5DB843BC28D9759EF222E5675FABB1 /* Pods_LLBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLBaseLib_Example.framework; path = "Pods-LLBaseLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A952FD44FC823602FEEF6B71299C36B /* Pods-LLBaseLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLBaseLib_Example.modulemap"; sourceTree = "<group>"; };
-		26A3F5A10017343377C5CB89CBC3FD98 /* LLBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LLBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		20EEA28FB9EC4A1A2E476AF53B3E69F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		25BA977053CC966ECDA2E96B6D51B4A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2A092968EE33FA84F58B1BB9E4A3A40A /* Pods-LLBaseLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLBaseLib_Example-dummy.m"; sourceTree = "<group>"; };
-		2B179DDA63D396A6C2B0DD06B15CE43C /* LLBaseLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLBaseLib.release.xcconfig; sourceTree = "<group>"; };
 		2F4FC009F6930FBEFDF5E73EB5A66878 /* Pods-LLBaseLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLBaseLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		374721455933483A481384D26E5D4EFF /* Pods-LLBaseLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLBaseLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C7EB6A2AD5BCA6EBC2C405DB73AFB21 /* Pods_LLBaseLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLBaseLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7EB6A2AD5BCA6EBC2C405DB73AFB21 /* Pods_LLBaseLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLBaseLib_Tests.framework; path = "Pods-LLBaseLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4111FBB2C7FA861DA84A4694F6AA06A4 /* LLBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLBaseLib-umbrella.h"; sourceTree = "<group>"; };
 		4A37E03BF0B0E0204FDFCBE643A742D1 /* Pods-LLBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5175CFE66D20C20F5216EC7CF53C70B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		52D4D9D15EA51BDB975022A723657F00 /* Pods-LLBaseLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLBaseLib_Example-Info.plist"; sourceTree = "<group>"; };
 		6B604995392CDE8A1EFA1D04325AFDFD /* Pods-LLBaseLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLBaseLib_Tests.modulemap"; sourceTree = "<group>"; };
-		6F81D182688012BFEA0A7F4990E40553 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		80386ADF343F47282815537C5BDE1B44 /* LLBaseLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D417755C305F803D34045F46CF08E8D /* BaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseModel.h; path = LLBaseLib/Classes/BaseModel.h; sourceTree = "<group>"; };
+		80386ADF343F47282815537C5BDE1B44 /* LLBaseLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLBaseLib.framework; path = LLBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9477C208638417F124F01AFED2837BB1 /* LLBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLBaseLib-prefix.pch"; sourceTree = "<group>"; };
 		96CD49A4826C66B8842A46B5C55C56A7 /* Pods-LLBaseLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLBaseLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A88B183629ED158CD555A969436FC1AA /* Pods-LLBaseLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLBaseLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AB4665601452C50362C5D6FAAE115452 /* Pods-LLBaseLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLBaseLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BCA7D53DA46605F1F3C8B6D9566F08E3 /* LLBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLBaseLib-prefix.pch"; sourceTree = "<group>"; };
+		B55E35280AF4756134BDB1B913F85C17 /* LLBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLBaseLib-dummy.m"; sourceTree = "<group>"; };
+		BC4B8CBA725E90909F219D37E05BF025 /* LLBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLBaseLib.modulemap; sourceTree = "<group>"; };
 		C34846A820CEF7B79ECB8F8A65DDFA4A /* Pods-LLBaseLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLBaseLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D1E75089183115B8F9FD9974126FFA68 /* Pods-LLBaseLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLBaseLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DB1FC075A637E2BA8ECBB3BD828B4AAC /* Pods-LLBaseLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLBaseLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF6DA6F1F579ABC8B8BD1985A6FD99AB /* LLBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E4F4A0316017AFBDA56C8E727555BD34 /* Pods-LLBaseLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLBaseLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E54029C3C88672A7D809CC7240CB1E7E /* LLBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLBaseLib-umbrella.h"; sourceTree = "<group>"; };
 		E621DEF866015B07B5F26310EB8DC868 /* Pods-LLBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E9CB375F9E63674E032172749E9A3E54 /* LLBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLBaseLib-dummy.m"; sourceTree = "<group>"; };
 		EDA9E32CAF31A75673D6AC0E3FF60B3B /* Pods-LLBaseLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLBaseLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		F910EB3F9D09DBD1C85C957A4E3630BD /* LLBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLBaseLib.debug.xcconfig; sourceTree = "<group>"; };
 		FAF7E70EF21EEC3E6B6E61F6D886EF5B /* Pods-LLBaseLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLBaseLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		FFCB48F8758909D0E949C38B54C3EC05 /* LLBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LLBaseLib-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		927B801CF89506212371559D6F278626 /* Frameworks */ = {
+		C72719543A922285D9491E6514DF954C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EFFF911EB5CF3D71D9A6DC9E79E8390 /* Foundation.framework in Frameworks */,
+				D7875F55152922833FB953955033E27E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,12 +118,19 @@
 			path = "Target Support Files/Pods-LLBaseLib_Tests";
 			sourceTree = "<group>";
 		};
-		58B7383F618FEDC040B00107019A1CF4 /* Development Pods */ = {
+		49A61852D8EA40ABD27C44BA5B73BF37 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D56C087419C9BBFE87C87A0EAF73B39F /* LLBaseLib */,
+				BC4B8CBA725E90909F219D37E05BF025 /* LLBaseLib.modulemap */,
+				B55E35280AF4756134BDB1B913F85C17 /* LLBaseLib-dummy.m */,
+				FFCB48F8758909D0E949C38B54C3EC05 /* LLBaseLib-Info.plist */,
+				9477C208638417F124F01AFED2837BB1 /* LLBaseLib-prefix.pch */,
+				4111FBB2C7FA861DA84A4694F6AA06A4 /* LLBaseLib-umbrella.h */,
+				13A34F60ED62757891CBB92D9BA67287 /* LLBaseLib.debug.xcconfig */,
+				09BBCCD6D0C8AE9072EC12EB358FFAA3 /* LLBaseLib.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLBaseLib";
 			sourceTree = "<group>";
 		};
 		7379B80918BA98E1723FF0487C238EC3 /* Products */ = {
@@ -134,21 +141,6 @@
 				3C7EB6A2AD5BCA6EBC2C405DB73AFB21 /* Pods_LLBaseLib_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B355C5436BBF9F50DD607BEFDD6A3DCB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0340144F4A51A3FA9D3649C087ADB14B /* LLBaseLib.modulemap */,
-				E9CB375F9E63674E032172749E9A3E54 /* LLBaseLib-dummy.m */,
-				064B04EE22A2549208F70CA46DC39FF7 /* LLBaseLib-Info.plist */,
-				BCA7D53DA46605F1F3C8B6D9566F08E3 /* LLBaseLib-prefix.pch */,
-				E54029C3C88672A7D809CC7240CB1E7E /* LLBaseLib-umbrella.h */,
-				F910EB3F9D09DBD1C85C957A4E3630BD /* LLBaseLib.debug.xcconfig */,
-				2B179DDA63D396A6C2B0DD06B15CE43C /* LLBaseLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LLBaseLib";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -172,11 +164,19 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				58B7383F618FEDC040B00107019A1CF4 /* Development Pods */,
+				CF287B93FC8D57397D20764DD02DA45E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7379B80918BA98E1723FF0487C238EC3 /* Products */,
 				C11990C54D29A4AD3F44A00A2318B082 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF287B93FC8D57397D20764DD02DA45E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEB525E57C95760A839D9DB4714E6AF6 /* LLBaseLib */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -187,26 +187,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D47D46FD15291C8096BBB1FD8FB21E1C /* Pod */ = {
+		DD144C459C3B2E1008FC52001908C086 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5175CFE66D20C20F5216EC7CF53C70B1 /* LICENSE */,
-				26A3F5A10017343377C5CB89CBC3FD98 /* LLBaseLib.podspec */,
-				6F81D182688012BFEA0A7F4990E40553 /* README.md */,
+				20EEA28FB9EC4A1A2E476AF53B3E69F7 /* LICENSE */,
+				DF6DA6F1F579ABC8B8BD1985A6FD99AB /* LLBaseLib.podspec */,
+				25BA977053CC966ECDA2E96B6D51B4A0 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		D56C087419C9BBFE87C87A0EAF73B39F /* LLBaseLib */ = {
-			isa = PBXGroup;
-			children = (
-				D47D46FD15291C8096BBB1FD8FB21E1C /* Pod */,
-				B355C5436BBF9F50DD607BEFDD6A3DCB /* Support Files */,
-				11054F3C28CE357E00C8E427 /* BaseModel.h */,
-				11054F3D28CE357E00C8E427 /* BaseModel.m */,
-			);
-			name = LLBaseLib;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		EE770D50256F2A0B3CE461813050C111 /* Pods-LLBaseLib_Example */ = {
@@ -226,18 +214,21 @@
 			path = "Target Support Files/Pods-LLBaseLib_Example";
 			sourceTree = "<group>";
 		};
+		EEB525E57C95760A839D9DB4714E6AF6 /* LLBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				6D417755C305F803D34045F46CF08E8D /* BaseModel.h */,
+				0316A02B2A9B06B9F5B0AC2D46CB2100 /* BaseModel.m */,
+				DD144C459C3B2E1008FC52001908C086 /* Pod */,
+				49A61852D8EA40ABD27C44BA5B73BF37 /* Support Files */,
+			);
+			name = LLBaseLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C27F7F9BC3B73000208BB10689EEF3E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D40D90B22E95B166DC8249E019A867C9 /* LLBaseLib-umbrella.h in Headers */,
-				11054F3E28CE357E00C8E427 /* BaseModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		992C879E11DFDEFFE9090ADA9BAAD825 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +242,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA1F429E95217DFB1ADF7DB75342DC0 /* Pods-LLBaseLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCE2BE0DA2B174E3544B9705ED4C0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5B8A32FA62DD391529240F379EA5E2 /* BaseModel.h in Headers */,
+				129E5EAFAB7E10BD8F11F6CAC3D07F17 /* LLBaseLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2DB0D552C6923DA387D1324927FB13FC /* PBXTargetDependency */,
+				1D6E9FE1253BE2379115A96EA699F4C4 /* PBXTargetDependency */,
 			);
 			name = "Pods-LLBaseLib_Example";
 			productName = "Pods-LLBaseLib_Example";
@@ -288,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				870DC0D7EBA437DC0A9629ACCD6DC261 /* PBXTargetDependency */,
+				D89F2FDAFB8971929AE2305310306116 /* PBXTargetDependency */,
 			);
 			name = "Pods-LLBaseLib_Tests";
 			productName = "Pods-LLBaseLib_Tests";
@@ -297,12 +297,12 @@
 		};
 		DAEB75F97497C133031D60F82902AE21 /* LLBaseLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E658E72D4316E3E1B0F51DFD1FAC43FA /* Build configuration list for PBXNativeTarget "LLBaseLib" */;
+			buildConfigurationList = FBE5B021CE70A748144BEDF10772E488 /* Build configuration list for PBXNativeTarget "LLBaseLib" */;
 			buildPhases = (
-				0C27F7F9BC3B73000208BB10689EEF3E /* Headers */,
-				B1E5F35809FDF5C30CA3FA98AD0A59DF /* Sources */,
-				927B801CF89506212371559D6F278626 /* Frameworks */,
-				D6218390D0B0FDFB0A257109E143BC78 /* Resources */,
+				EDCCE2BE0DA2B174E3544B9705ED4C0A /* Headers */,
+				450D03A8DE98F7331A422324713044C8 /* Sources */,
+				C72719543A922285D9491E6514DF954C /* Frameworks */,
+				DEBB10ABFD99BAA247551468463DCEB4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -357,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6218390D0B0FDFB0A257109E143BC78 /* Resources */ = {
+		DEBB10ABFD99BAA247551468463DCEB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,6 +367,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		450D03A8DE98F7331A422324713044C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C973820ACB653E9E64A2DA08FFAA7ACD /* BaseModel.m in Sources */,
+				2F668B1057A86DD738B6078043EA906A /* LLBaseLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6C7A398E32532A441EA3DB59D24DCD0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,69 +392,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1E5F35809FDF5C30CA3FA98AD0A59DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11054F3F28CE357E00C8E427 /* BaseModel.m in Sources */,
-				7AF09A78E9E08F5C53B79F5A31B70C4C /* LLBaseLib-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2DB0D552C6923DA387D1324927FB13FC /* PBXTargetDependency */ = {
+		1D6E9FE1253BE2379115A96EA699F4C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLBaseLib;
 			target = DAEB75F97497C133031D60F82902AE21 /* LLBaseLib */;
-			targetProxy = D18D270D71B62A2DF0FFA73E109BA47F /* PBXContainerItemProxy */;
+			targetProxy = 98BEADC96BF0C6F4D54E5F3C3284F12F /* PBXContainerItemProxy */;
 		};
-		870DC0D7EBA437DC0A9629ACCD6DC261 /* PBXTargetDependency */ = {
+		D89F2FDAFB8971929AE2305310306116 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LLBaseLib_Example";
 			target = 5BB6405C2BDD2A8B7E3A8B4CAC022A6A /* Pods-LLBaseLib_Example */;
-			targetProxy = BCCCFE5C2B963FFBA441F41C2F1AA6A2 /* PBXContainerItemProxy */;
+			targetProxy = 642CCFE71458E45B5EE03DB1DA979D5E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		39DD86269120274D6F1160C51F76886E /* Release */ = {
+		15A2D04C93C24AA2F515763AA5B59593 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B179DDA63D396A6C2B0DD06B15CE43C /* LLBaseLib.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LLBaseLib/LLBaseLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LLBaseLib/LLBaseLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LLBaseLib/LLBaseLib.modulemap";
-				PRODUCT_MODULE_NAME = LLBaseLib;
-				PRODUCT_NAME = LLBaseLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3C76C32AA79521CFD0FD42DCE1076D98 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F910EB3F9D09DBD1C85C957A4E3630BD /* LLBaseLib.debug.xcconfig */;
+			baseConfigurationReference = 13A34F60ED62757891CBB92D9BA67287 /* LLBaseLib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -529,7 +496,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -738,6 +706,39 @@
 			};
 			name = Debug;
 		};
+		E7B061372DE74FD2979D7108C6D131B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09BBCCD6D0C8AE9072EC12EB358FFAA3 /* LLBaseLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLBaseLib/LLBaseLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLBaseLib/LLBaseLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLBaseLib/LLBaseLib.modulemap";
+				PRODUCT_MODULE_NAME = LLBaseLib;
+				PRODUCT_NAME = LLBaseLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -759,20 +760,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E658E72D4316E3E1B0F51DFD1FAC43FA /* Build configuration list for PBXNativeTarget "LLBaseLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C76C32AA79521CFD0FD42DCE1076D98 /* Debug */,
-				39DD86269120274D6F1160C51F76886E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E7D8A51DE983DA5177D2482EF9F75AD7 /* Build configuration list for PBXNativeTarget "Pods-LLBaseLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ADDF8844B1F9B6AA0B82CC7263AEDA8 /* Debug */,
 				849ABDAE34151E2F30876DFF791D7A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE5B021CE70A748144BEDF10772E488 /* Build configuration list for PBXNativeTarget "LLBaseLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A2D04C93C24AA2F515763AA5B59593 /* Debug */,
+				E7B061372DE74FD2979D7108C6D131B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
